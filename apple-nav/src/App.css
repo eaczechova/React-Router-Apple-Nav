@@ -1,0 +1,95 @@
+.App {
+	text-align: center;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 13px 50px;
+	background-color: rgb(19, 19, 19);
+	color: #f5f5f7;
+	color: rgb(203, 203, 203);
+	font-size: 14px;
+}
+
+.nav-wrapper a {
+	color: rgb(203, 203, 203);
+	text-decoration: none;
+}
+
+.nav-wrapper a:hover,
+.nav-wrapper span:hover {
+	color: #f5f5f7;
+	cursor: pointer;
+}
+
+.item-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 10px 30px;
+	background-color: rgba(245, 245, 247, 0.7);
+}
+
+.item-wrapper a {
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.item {
+	margin-top: 15px;
+}
+
+.nav-wrapper img {
+	width: 15px;
+	color: rgb(203, 203, 203);
+}
+
+.item img {
+	width: 40px;
+}
+
+.item p {
+	color: #1d1d1f;
+}
+
+.item p:hover {
+	color: #06c;
+}
+
+.description {
+	width: 100%;
+	color: black;
+}
+
+.activeLink {
+	opacity: 0.56;
+}
+
+.description-header {
+	width: 100%;
+	display: flex;
+	margin: 0;
+	justify-content: space-evenly;
+	background: #fff;
+}
+.description-header p {
+	padding: 20px;
+	font-size: 11px;
+}
+.description-header p:first-child {
+	flex-grow: 3;
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.description-header button {
+	width: 40px;
+	height: 20px;
+	background: #06c;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	margin-top: 28px;
+}
